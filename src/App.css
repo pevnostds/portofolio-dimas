@@ -1,38 +1,187 @@
-.App {
+.about-img img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(139, 18, 18, 0.2);
+}
+
+.about-text {
+  font-family: 'Lato';
+  font-size: large;
+}
+
+.about-text h2 {
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+.about-text h5 {
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.about-text p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 25px;
+  color: #110a53;
+  text-transform: capitalize;
+
+}
+
+.about {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+
+.navbar {
+  background-color: #0d6efd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-brand:hover {
+  color: black;
+}
+
+
+.navbar .nav-link {
+  color: #f8f9fa;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #d1eaff;
+}
+
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar .nav-link.active {
+  color: #ffc107;
+  border-bottom: 2px solid #ffc107;
+}
+
+
+
+.menu {
+  background-color: grey;
+  padding: 2rem 0;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.container {
+  justify-content: center;
+}
+
+.column {
+  background-color: red;
+}
+
+.card-title {
+  color: #0d6efd;
+}
+
+.card-subtitle {
+  color: #6c757d;
+}
+
+
+.column:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.skills-section{
+  background-color:grey;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+.skills-section .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: red;
+}
+
+.skills-section .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section .card-title h5 {
+  font-size: 1.5rem;
+  color: white;
+  align-items: center;
+}
+
+.skills-section .card-text h5 {
+  font-size: 1.2rem;
+  display: block;
+  color: white;
+  margin-bottom: 5px;
+
+}
+
+.skills-section .card-title .fa-icon,
+.skills-section .card-text .fa-icon {
+  font-size: 2rem;
+  color: 'black';
+  margin-right: 8px;
+}
+
+.skills-section .card:hover .fa-icon {
+  color: grey;
+}
+
+
+.skills-section .card-body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-section {
+  background-color: #05080c;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-info {
+  font-size: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contact-info h5 {
+  margin: 0.5rem 0;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.contact-info p {
+  margin: 0.5rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-info a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }

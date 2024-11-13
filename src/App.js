@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { NavbarComponent, SectionComponent, PendidikanComponent,SkillComponent,ContactComponent } from './components';
 import './App.css';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComponent />
+      <SectionComponent />
+      <PendidikanComponent />
+      <br />
+      <SkillComponent />
+      <br />
+      <ContactComponent />
     </div>
   );
 }
