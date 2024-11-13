@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portofolio-dimas/static/css/main.6eb8ce21.css",
+    "main.js": "/portofolio-dimas/static/js/main.00912fa2.js",
+    "static/js/453.692f86b8.chunk.js": "/portofolio-dimas/static/js/453.692f86b8.chunk.js",
+    "static/media/Dimas.jpg": "/portofolio-dimas/static/media/Dimas.a556a17696ccad40a8c9.jpg",
+    "index.html": "/portofolio-dimas/index.html",
+    "main.6eb8ce21.css.map": "/portofolio-dimas/static/css/main.6eb8ce21.css.map",
+    "main.00912fa2.js.map": "/portofolio-dimas/static/js/main.00912fa2.js.map",
+    "453.692f86b8.chunk.js.map": "/portofolio-dimas/static/js/453.692f86b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6eb8ce21.css",
+    "static/js/main.00912fa2.js"
+  ]
+}
